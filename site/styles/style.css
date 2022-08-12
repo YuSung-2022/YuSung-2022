@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+header {
+    font-family: monospace;
+    font-size: 32px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.window {
+    width: 120px;
+    flex: 1;
+
+    margin: 0 auto;
+    /* background-color: darkgray; */
+}
+
+.label {
+    flex: 1;
+    width: 116px;
+    height: 35px;
+    font-size: 24px;
+    line-height: 35px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    margin: 0 auto;
+
+    background-color: beige;
+}
+
+.button {
+    width: 120px;
+    height: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    font-family: fantasy;
+    font-size: 20px;
+
+    justify-content: center;
+    align-items: center;
+}
